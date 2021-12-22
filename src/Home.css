@@ -1,0 +1,31 @@
+.home-body {
+  background-color: rgb(17, 148, 17);
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
+  height: 70vh;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.home-body > h1 {
+  color: white;
+  margin-top: 20px;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.search-input-home {
+  background-color: whitesmoke;
+  border-radius: 20px;
+  border-style: none;
+  border: black 1px solid;
+  height: 30px;
+  width: 300px;
+  color: #333;
+  text-align: center;
+  font-size: 1.5rem;
+  font-family: "PT Serif", serif;
+}

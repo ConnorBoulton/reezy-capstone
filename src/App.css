@@ -182,13 +182,33 @@ header > nav {
 }
 
 .search-box {
-  width: 50%;
+  width: 60%;
   margin-left: auto;
   margin-right: auto;
   margin-top: 5%;
-  justify-content: flex-start;
   align-items: center;
   display: flex;
+  justify-content: space-between;
+}
+
+.search-box > button {
+  background-color: rgb(130, 130, 235);
+  border-radius: 20px;
+  height: 40px;
+  width: 200px;
+  cursor: pointer;
+  border: none;
+  font-size: 1.3rem;
+}
+
+.search-box > button:hover {
+  opacity: 80%;
+  border: black 1px solid;
+}
+
+.search-box > button > a {
+  color: white;
+  text-decoration: none;
 }
 
 .search-box > form > label {
@@ -242,4 +262,158 @@ footer {
 .footer-nav > a:hover {
   opacity: 80%;
   transform: scale(1.1);
+}
+
+.form-box {
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+  border: solid black 2px;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+}
+
+.form-box > h1 {
+  padding: 15px;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.input {
+  width: 80%;
+  height: 35px;
+  font-size: 1.4rem;
+  font-family: "PT Serif", serif;
+  margin-top: 30px;
+}
+
+.description-box {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+}
+
+.description-box > h3 {
+  font-size: 1.5rem;
+  font-family: "PT Serif", serif;
+}
+
+.title-input {
+  margin-bottom: 30px;
+}
+
+.description-textarea {
+  width: 80%;
+  height: 80%;
+  padding: 15px;
+  resize: none;
+}
+
+.info-box-a {
+  margin-top: 30px;
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.info-box-a > input {
+  height: 27px;
+  width: 42%;
+  font-family: "PT Serif", serif;
+  font-size: 1.2rem;
+}
+
+.add-ingredient-box {
+  margin-top: 30px;
+  /* background-color: wheat; */
+  width: 80%;
+}
+
+.add-ingredient-box > button {
+  width: 170px;
+  height: 35px;
+  border-radius: 20px;
+  border: none;
+  color: white;
+  background-color: rgb(130, 130, 235);
+  cursor: pointer;
+}
+
+.add-ingredient-box > button:hover {
+  opacity: 80%;
+  transform: scale(1.1);
+}
+
+.spoon-container {
+  width: 90%;
+  height: 90%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  overflow-y: scroll;
+  margin: 30px 0px 30px 0px;
+}
+
+.spoon-card {
+  background-color: white;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 300px;
+  height: 200px;
+  margin: 30px;
+}
+
+.spoon-card:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.spoon-card > img {
+  width: 100%;
+  height: 80%;
+}
+
+.spoon-card > h3 {
+  width: 100%;
+  color: black;
+  padding: 10px;
+  margin-bottom: 5px;
+  font-family: "PT Serif", serif;
+  text-align: center;
+  text-overflow: ellipsis;
+}
+
+.search-input-home {
+  width: 200px;
+  border-radius: 20px;
+  text-align: center;
+  margin: 10px;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.search-button-home {
+  width: 100px;
+  height: 30px;
+  border-radius: 20px;
+  background-color: rgb(130, 130, 235);
+  color: white;
+  border: none;
+}
+
+.search-button-home:hover {
+  cursor: pointer;
+  opacity: 80%;
+  border: white solid 1px;
 }
