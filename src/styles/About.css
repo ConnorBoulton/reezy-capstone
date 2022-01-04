@@ -1,24 +1,29 @@
 .about-box {
-  border: solid 2px green;
+  background-color: green;
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 60%;
+  width: 50%;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 40px;
+  margin-top: 200px;
   font-family: "PT Serif", serif;
-  color: #333;
+  color: white;
+  font-size: 1.3rem;
 }
 
 .description {
+  background-color: white;
+  border: solid black 2px;
+  padding: 20px;
   display: flex;
   flex-direction: column;
-  width: 60%;
+  width: 40%;
   margin-left: auto;
   margin-right: auto;
   justify-content: center;
   align-items: center;
   margin-top: 80px;
   font-family: "PT Serif", serif;
+  margin-bottom: 100px;
 }

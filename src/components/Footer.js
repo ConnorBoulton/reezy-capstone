@@ -10,8 +10,8 @@ export default function Footer() {
           <p>By Connor Boulton</p>
         </span>
         <nav className="footer-nav">
-          <a href="/">Home</a> |<a href="/profile">Profile</a> |
-          <a href="/recipes">Recipes</a> |<a href="/about">About</a>
+          <a href="/">Home</a> |<a href="/recipes">Recipes</a> |
+          <a href="/about">About</a>
         </nav>
       </footer>
     </div>
