@@ -56,6 +56,12 @@ export default function About() {
             reading this, thank you for looking at the project, and I hope you
             enjoy!
           </p>
+          <a
+            className="github-link"
+            href="https://github.com/ConnorBoulton/reezy-capstone"
+          >
+            <h3>GitHub</h3>
+          </a>
         </span>
       </div>
       <Footer />

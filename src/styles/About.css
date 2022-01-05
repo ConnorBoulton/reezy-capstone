@@ -27,3 +27,15 @@
   font-family: "PT Serif", serif;
   margin-bottom: 100px;
 }
+
+.github-link {
+  margin-top: 50px;
+  font-size: 1.5rem;
+  color: blue;
+  text-decoration: none;
+  transition-duration: 500ms;
+}
+
+.github-link:hover {
+  transform: scale(1.15);
+}
